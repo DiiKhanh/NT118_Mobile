@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="header" type="id">header</item>
+    <item name="mssv" type="id">mssv</item>
+    <item name="mssvfield" type="id">mssvfield</item>
+    <item name="hoten" type="id">hoten</item>
+    <item name="hotenfield" type="id">hotenfield</item>
+    <item name="lop" type="id">lop</item>
+    <item name="lopfield" type="id">lopfield</item>
+    <item name="insert" type="id">insert</item>
+    <item name="delete" type="id">delete</item>
+    <item name="update" type="id">update</item>
+    <item name="query" type="id">query</item>
+    <item name="rv_student" type="id">rv_student</item>
+</resources>

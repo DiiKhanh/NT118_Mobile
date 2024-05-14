@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cau7Activity"
+    tools:layout_editor_absoluteY="81dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Quản lý nhân viên"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/ql"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        app:layout_constraintTop_toBottomOf="@id/ql"
+        app:layout_constraintRight_toLeftOf="@+id/maNV"
+        android:id="@+id/labelMa"
+        tools:ignore="MissingConstraints"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/labelMa"
+        app:layout_constraintTop_toBottomOf="@id/ql"
+        android:id="@+id/maNV"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/labelTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Full Name: "
+
+        app:layout_constraintTop_toBottomOf="@+id/labelMa"
+        app:layout_constraintRight_toLeftOf="@+id/tenNV"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/labelTen"
+        app:layout_constraintTop_toBottomOf="@+id/maNV"
+        android:id="@+id/tenNV"
+        ></EditText>
+    <TextView
+        android:id="@+id/labelLoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Is A Manager: "
+        app:layout_constraintTop_toBottomOf="@+id/labelTen"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        ></TextView>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tenNV"
+        app:layout_constraintLeft_toRightOf="@+id/labelLoai"
+        android:id="@+id/checkNV"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNhap"
+        android:text="ADD"
+        app:layout_constraintTop_toBottomOf="@+id/checkNV"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/buttonNhap"
+        android:id="@+id/tv_person"></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        app:layout_constraintTop_toBottomOf="@+id/tv_person"
+        android:id="@+id/rvPerson"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

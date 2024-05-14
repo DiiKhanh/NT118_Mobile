@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color0">#000000</color>
+    <color name="color1">#FF0000</color>
+    <color name="color2">#00FF00</color>
+    <color name="color3">#0000FF</color>
+    <color name="color4">#FFFF00</color>
+    <color name="color5">#FF00FF</color>
+    <color name="color6">#00FFFF</color>
+    <color name="color7">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="xanhmongket">#FF03DAC5</color>
+    <color name="xanhmongketdam">#FF018786</color>
+    <color name="red">#FF0000</color>
+    <color name="xanhlanhat">#00FF00</color>
+    <color name="xanh">#0000FF</color>
+    <color name="xanhnhat">#42cbf5</color>
+</resources>

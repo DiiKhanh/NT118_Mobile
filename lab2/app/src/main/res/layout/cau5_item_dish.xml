@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_dish_rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_dish_iv_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/first_thumbnail" />
+
+    <TextView
+        android:id="@+id/item_dish_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_dish_iv_thumbnail"
+        android:layout_centerInParent="true"
+        android:background="#AA000000"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="12dip"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Dish 01 Dish 01 Dish 01 Dish 01Dish 01Dish 01Dish 01Dish 01"
+        android:textColor="#ffffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/item_dish_iv_is_promotion"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/item_dish_tv_name"
+        android:layout_alignBottom="@+id/item_dish_tv_name"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/star" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1096315572357",
+    "firebase_url": "https://fir-mobile-java-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-mobile-java",
+    "storage_bucket": "fir-mobile-java.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096315572357:android:7862328fa21ca8ae37d9ec",
+        "android_client_info": {
+          "package_name": "com.example.demoapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Yynzh9P5eruXXP1SdZ-pPQmXb_He2kE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

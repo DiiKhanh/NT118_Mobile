@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:id="@+id/linLayout1Vertical"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+
+        android:id="@+id/linLayout2Horizontal"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/btnPrefSimple"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Pref Simple UI">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/btnPrefFancy"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Pref Fancy UI">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/txtCaption1"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="#ff006666"
+
+        android:text="This is some sample text ">
+
+    </TextView>
+
+</LinearLayout>
