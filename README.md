@@ -20,6 +20,8 @@
 | 1   | 21522211 | Phạm Duy Khánh    | https://github.com/DiiKhanh      | 21522211@gm.uit.edu.vn |
 
 ## Các buổi thực hành
+👉 Thắc mắc liên hệ Instagram: dy.knhh
+
 
 👉 THỰC HÀNH LAB 01 - CÁC LAYOUT CƠ BẢN
 
@@ -54,3 +56,11 @@
 👉 THỰC HÀNH LAB 05 - MULTITHREADING
 
 📌 Tất cả bài tập trong file hướng dẫn
+
+👉 THỰC HÀNH LAB 06 - ANIMATION
+
+📌 Tất cả bài tập
+
+📌 Lab6_bt1: Bao gồm 3 câu (1,2,3)
+
+📌 Lab6_fragment: Câu cuối

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab6_bt1</string>
+    <string name="from_xml">From XML</string>
+    <string name="from_code">From Code</string>
+    <string name="fade_in">Fade In</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="blink">Blink</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="rotate">Rotate</string>
+    <string name="move">Move</string>
+    <string name="slide_up">Slide Up</string>
+    <string name="slide_down">Slide Down</string>
+    <string name="bounce">Bounce</string>
+    <string name="combine">Combine</string>
+</resources>
